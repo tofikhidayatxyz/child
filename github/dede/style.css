@@ -1,0 +1,738 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: white;
+}
+header{
+	height: 80px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background-color: black;
+}
+
+#icon-top{
+	width:40px;
+	height: 40px;
+}
+
+#search-top{
+	width: 250px;
+	height: 30px;
+	cursor: text;
+	border: 0;
+	background: #3f4347;
+	font-size: 14px;
+	color: #fff;
+}
+
+#search-top:focus{
+	background-color: #fff;
+	z-index: 1;
+	color: #000
+}
+button.search-top {
+	margin-left: -20px;
+	background-color: gray;
+	border: gray;
+}
+
+#search-top-icon{
+	margin-left: -35px;
+}
+
+#header-top-nav .nav-link{
+	color: #fff;
+}
+
+#header-top-nav .nav-link:hover{
+	color: rgba(255,255,255,.5);
+}
+
+.top-links{
+	color: white;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.top-links:hover{
+	text-decoration: none;
+	color: white;
+}
+
+#top-link-span{
+	color: #586069;
+}
+#toggle-wrapper {
+	float: right;
+	margin-left: 350px;
+}
+#bg-hitam{
+	padding-top: 64px;
+	padding-bottom: 64px;
+	background-image:url(../img/simple-codelines.svg);
+	background-size: cover;
+}
+
+#text-atas{
+
+	font-size: 21px;
+	color: hsla(0,0%,100%,0.6);
+}
+
+#text-atas a{
+	border-bottom: 1px solid hsla(0,0%,100%,0.125);
+}
+
+#text-atas a:hover{
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+}
+
+#kolom-1{
+	padding-right: 55px;
+	padding-left: 55px;
+}
+
+#kolom-1 h1{
+	font-size: 64px;
+}
+
+#kolom-1 .text-1{
+	position: relative;
+	top: 20%;
+	transform: translateY(-50%);
+}
+
+#kolom-2 #form-wrapper{
+	padding:24px;
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+#form-wrapper .label-atas{
+	margin-top: 15px;
+}
+
+#form-wrapper input{
+	width: 100%;
+	min-height: 46px;
+  	padding: 10px;
+  	font-size: 16px;
+  	border-radius: 5px;
+	border: 1px solid #d1d5da;
+}
+
+#form-wrapper #text-form-1{
+	font-size: 12px;
+}
+
+#form-wrapper #text-form-1{
+	text-decoration: none;
+}
+
+#form-wrapper #button-login{
+	width: 100%;
+	padding: 20px 32px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#form-wrapper #terms{
+	font-size: 12px;
+	max-width: 332px;
+	margin:0 auto;
+}
+
+#bg-hitam.bg-hitam{
+	background-color: black;
+	background-size: cover;
+}
+
+#cubes{
+	background-image: url(../img/bg-universe.svg);
+	background-color: #13191E;
+	background-size: cover;
+	height: 170px;
+}
+
+#cubes-img{
+	width: 100px;
+	float: left;
+	margin-right: 24px;
+	height: 100px;
+}
+
+#cubes p{
+	max-width: 368px;
+}
+
+#cubes #cubes-text{
+	float: right;
+}
+
+#hexagon{
+	background-color: #13191E;
+}
+#h1-row1 h1 {
+	font-size: 44px;
+	text-align: center;
+}
+#p-row1 p {
+	font-size: 20px;
+	text-align: center;
+}
+#p-row1 ins {
+	color: blue;
+	text-decoration: none;
+}
+#hexagon p{
+	max-width: 368px;
+}
+
+#hexagon #hexagon-text{
+	float: left;
+}
+img.hexagonpng {
+	margin-left: 200px;
+	height: 70px;
+	width: 70px;
+}
+#btn1 {
+	margin-left: 100px;
+}
+#btn2 {
+	background-color: transparent;
+	border: 1px solid #1277eb!important;
+	color:  #1277eb!important;
+	cursor: pointer;
+	margin-left: -20px;	
+}
+#btn2:hover {
+	background-color: whitesmoke;
+	cursor: pointer;
+}
+.button2:hover {
+	background-color: whitesmoke;
+	cursor: pointer;
+}
+.teks1 ins,.teks2 ins,.teks3 ins:hover {
+	cursor: pointer;
+	background-color: block;
+}
+
+.teks1 h1, p,.teks2 h1, p,.teks3 h1, p{
+	cursor: pointer;
+}
+#row1-p2 {
+	margin-top: 20px;
+	color: gray;
+	font-size: 23px;
+}
+.img {
+	margin-top: 20px;
+		filter: grayscale(100%);
+}
+.airbnb {
+	width: 120px;
+	height: 30px;
+	padding-top: 50px;
+	margin-left: 250px;
+}
+.sap {
+	width: 70px;
+	height: 30px;
+	margin-left: 75px;
+}
+.ibm {
+	width: 60px;
+	height: 30px;
+	margin-left: 75px;
+}
+.gugel {
+	width: 50px;
+	height: 30px;
+	margin-left: 75px;
+}
+.paypol {
+	width: 110px;
+	height: 30px;
+	margin-left: 75px;
+}
+.bloomberg {
+	width: 110px;
+	height: 30px;
+	margin-left: 75px;
+}
+.spotipy {
+	width: 130px;
+	height: 30px;
+	padding-top: 45px;
+	margin-left: 240px;
+}
+.swift {
+	width: 50px;
+	height: 30px;
+	margin-left: 80px;
+}
+.fb {
+	width: 30px;
+	height: 30px;
+	margin-left: 80px;
+}
+.node {
+	height: 30px;
+	width: 100px;
+	margin-left: 70px;
+}
+.nasa {
+	height: 30px;
+	width: 35px;
+	margin-left: 100px;
+}
+.walmart {
+	height: 30px;
+	margin-left: 70px;
+	width: 100px;
+}
+.img {
+	padding-bottom: 30px;
+}
+h2 {
+	font-size: 25px;
+	margin-top: 20px;
+}
+h1 {
+	font-size: 55px;
+	margin-top: 60px;
+}
+#row1-p3 p {
+	text-align: center;
+	font-size: 25px;
+	margin-top: 10px;
+}
+#row1-p4 p {
+	text-align: center;
+	margin-top: 50px;
+}
+button.button2 {
+	cursor: pointer;
+	margin-top: 40px;
+	background-color: white;
+	border: 2px solid blue;
+	height: 70px;
+	width: 300px;
+}
+img#roboto  {
+	height: 500px;
+	float: left;
+	margin-top: 100px;
+}
+img.roboto {
+	margin-top: 100px;
+	height: 600px;
+	width: 500px;
+}
+.kata4 {
+	width: 100%;
+	height: 500px;
+}
+.teks1 p{
+	font-size: 15px;
+}
+.teks2 p{
+	font-size: 15px;
+}
+.teks1 h1 {
+	font-size: 30px;
+}
+.teks2 h1 {
+	font-size: 30px;
+}
+.teks3 h1 {
+	font-size: 30px;
+}
+.teks3 p{
+	font-size: 15px;
+}
+.teks1 {
+	margin-top: 100px;
+}
+.teks2 {
+	margin-top: 50px;
+}
+
+.teks3 {
+	margin-top: 50px;
+}
+.teks1 ins {
+	color: blue;
+	text-decoration: none;
+}
+.teks2 ins {
+	color: blue;
+	text-decoration: none;
+}
+.teks3 ins {
+	color: blue;
+	text-decoration: none;
+}
+h5#h51 {
+	font-size: 40px;
+	margin-top: 50px;
+}
+h1#h11 {
+	font-size: 45px;
+	margin-top: -10px;
+}
+.teks4 p {
+	margin-top: 30px;
+	font-size: 30px;
+	color: gray;
+}
+.teks4 button{
+	margin-top: 15px;
+	height: 50px;
+	width: 300px;
+	background-color: whitesmoke;
+	border-radius: 1%;
+	border: 1px solid blue;
+	cursor: pointer
+}
+img.h-i-b {
+	width: 450px;
+	height: 450px;
+	margin-top: 70px;
+}
+.foto {
+	margin-top: 150px;
+	width: 450px;
+	height: 200px;
+	border: 5px solid gray;
+	border: whitesmoke;
+	background-color: white;
+}
+.foto img {
+	width: 80px;
+	height: 100px;
+	float: left;
+	margin-right: 20px;
+
+}
+.foto h1 {
+	font-size: 20px;
+	color: blue;
+}
+.foto p {
+	margin-top: 10px;
+	font-size: 11px;
+	text-align: left;
+}
+.foto button {
+	border: white;
+	font-size: 18px;
+	color: #00bfff;
+	margin-top: 10px;
+	background-color: white;
+}
+.teks7 p {
+	font-size: 23.5px;
+	padding-top: 10px;
+}
+.teks7 button {
+	color: blue;
+	margin-top: 20px;
+	border: 0.5px solid lightblue;
+	height: 60px;
+	width: 250px;
+}
+p.p3 {
+	margin-top: 150px;
+}
+.aplikasi {
+	width: 950px;
+	padding-top: 50px;
+	text-align: center;
+}
+.logo1 {
+	border-radius: 100%;
+	background-color: #553958;
+	width: 100px;
+	height: 100px;
+}
+.logo2 {
+	border-radius: 100%;
+	background-color: #364e98;
+	margin-top: 100px;
+	margin-left: 30px;
+	width: 100px;
+	height: 100px;
+}
+.logo3 {
+	border-radius: 100%;
+	background-color: gray;
+	margin-left: 30px;
+	width: 100px;
+	height: 100px;
+}
+.logo4 {
+	border-radius: 100%;
+	background-color: #5fb57d;
+	margin-top: 100px;
+	margin-left: 30px;
+	width: 100px;
+	height: 100px;
+}
+.logo5 {
+	margin-left: 30px;
+	border-radius: 100%;
+	background-color: #022531;
+	width: 100px;
+	height: 100px;
+}
+.logo6 {
+	border-radius: 100%;
+	background-color: gray;
+	margin-top: 100px;
+	margin-left: 30px;
+	width: 100px;
+	height: 100px;
+}
+.logo7 {
+	border-radius: 100%;
+	background-color: #303030;
+	margin-left: 30px;
+	width: 100px;
+	height: 100px;
+}
+.teks8 p {
+	color: gray;
+	font-size: 20px;
+	padding-top: 100px;
+}
+.teks8 button {
+	padding-top: 20px;
+	border: white;
+	color: blue;
+	background-color: whitesmoke;
+	font-size: 20px;
+}
+.kata2 p {
+	margin-top: 100px;
+}
+.teks9 p {
+	color: gray;
+	font-size: 25px;
+	margin-top: -1px;
+}
+.flex {
+	display: flex;
+	margin-top: 100px;
+	overflow: auto;
+	width: 100%;
+	height: 200px;
+}
+.flex img {
+	width: 160px;
+	height: 150px;
+}
+.pic-teks1 {
+	height: 150px;
+	background-color: whitesmoke; 
+	margin-right: 40px;
+	padding: 40px;
+}
+.pic-teks2 {
+	height: 150px;
+	background-color: whitesmoke; 
+	margin-right: 40px;
+	padding: 40px;
+	margin-top: 20px;
+}
+.pic-2,.pic-4,.pic-6 {
+	margin-top: 20px;
+}
+.pic-7 h6 p {
+	margin-top: -10px;
+}
+.molekul {
+	padding-top: 100px;
+}
+.molekul h1  {
+	margin-top: 10px;
+	font-size: 35px;
+}
+.orange {
+	border-radius: 100%;
+	width: 250px;
+	height: 230px;
+	background-color: #fb8532!important;
+	color: white;
+	padding: 20px;
+}
+.orange h1 {
+	color: white;
+	margin-top: 50px;
+
+}
+.orange p {
+	font-size: 15px;
+	color: white;
+}
+.blue {
+	border-radius: 100%;
+	width: 200px;
+	height: 180px;
+	background-color: #0366d6!important;
+	color: white;
+	padding: 20px;
+	margin-left: 250px;
+	margin-top: -100px;
+}
+.blue h1 {
+	margin-top: 30px;
+}
+.purple {
+	border-radius: 100%;
+	width: 180px;
+	height: 150px;
+	background-color: #6f42c1!important;
+	color: white;
+	padding: 20px;
+	margin-left: 150px;
+	margin-top: 10px;
+}
+.purple h1 {
+	color: white;
+	font-size: 35px;
+	margin-top: -5px;
+
+}
+.purple p {
+	color: white;
+	margin-top: -10px;
+}
+.kata3 {
+	margin-top: 100px;
+	margin-left: 100px;
+}
+.teks10 p,.teks11 p,.teks12 p {
+	margin-top: 50px;
+	font-family: sans-serif;
+	font-size: 16.5px;
+}
+.teks10 a {
+	color: orange;
+}
+.teks11 ins {
+	color: blue;
+	text-decoration: none;
+}
+
+.teks12 a {
+	color: purple;
+}
+.teks13 {
+	margin-top: 100px;
+	color: gray;
+	font-size: 20px;
+}
+.teks14 h1 {
+	color: #ffff;
+	font-size: 30px;
+}
+.login {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.login input {
+	height: 40px;
+	margin: 25px;
+	width: 250px;
+	border-radius: 7.5%;
+	border: solid white;
+}
+.login button {
+	height: 45px;
+	margin: 25px;
+	width: 250px;
+	background-color: green;
+	color: white;
+	border: solid green;
+}
+.teks15 {
+	margin-top: 100px;
+}
+.teks15 p {
+	color: #000;
+	font-style: large;
+}
+.teks15 a {
+	color: #fff;
+}
+#h13 {
+	margin-top: 100px;
+}
+.bantuan1,.bantuan2,.bantuan3,.bantuan4 {
+	margin-left: 30px;
+}
+
+.bantuan1 p,.bantuan2 p,.bantuan3 p,.bantuan4 p{
+	margin-top: -20px;
+}
+.bantuan1 {
+	text-align: left;
+	float: left;
+	height: 400px;
+	margin-top: 80px;
+}
+.bantuan1 p {
+	font-size: 20px;
+	padding-top: 50px;
+}
+.bantuan2 {
+	text-align: left;
+	float: left;
+	height: 400px;
+	margin-top: 80px;
+}
+.bantuan2 p {
+	font-size: 20px;
+	padding-top: 50px;
+}
+.bantuan3 {
+	text-align: left;
+	float: left;
+	height: 400px;
+	margin-top: 80px;
+}
+.bantuan3 p {
+	font-size: 20px;
+	padding-top: 50px;
+}
+.bantuan4 {
+	text-align: left;
+	float: left;
+	height: 400px;
+	margin-top: 80px;
+}
+.bantuan4 p {
+	font-size: 20px;
+	padding-top: 50px;	
+}
+#last p {
+	margin-top: 10px;
+	margin-left: 100px;
+}
+#last {
+	background-color: whitesmoke;
+	margin-top: 150px;
+}
+#p1 img,#p2 img,#p3 img,#p4 img,#p5 img {
+	width: 40px;
+	height: 40px;
+	filter: grayscale(100);
+	margin-left: -50px;
+}

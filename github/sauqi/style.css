@@ -1,0 +1,103 @@
+ *{ margin: 0; }
+#logo{ width: 50px; height: auto;}
+#h1_build{ margin-top: 20%; font-size: 65px;}
+.text_introduction{ font-size: 20px; margin: 10px;}
+.color_background{ background-image: url("Github/simple-codelines.svg");background-repeat: no-repeat; background-size: cover;  background-color: #2b3137; }
+#username{ height: 50px; }
+.form_login{padding: 40px; }
+.form_login p{text-align: center; margin-top: 10px;}
+#btn_primary{ height: 55px;}
+.image_content{ margin: 40px; filter: grayscale();}
+.image_content_2{ margin-left: 30px; margin-right: 30px; filter: grayscale(); }
+#pwd{ height: 50px; }
+.background_login{ background-color: white; margin: 30px; border-radius: 5px;}
+#nav{ margin: 10px;color: white; font-size: 18px;}
+#or{ color: lightslategrey; font-size: 18px;}
+#nav{ margin: 5px; }
+#search_column{ margin-right: 20px; }
+#table_search{ width: 28%; height: 35px; border: solid 1px #333; padding: 10px; border-radius: 5px; background-color: #333}
+.universe_icon{ margin-top: 30px; }
+.universe{ margin: 30px; color: white; font-size: 18px;}
+.creativity{ color: white; margin: 30px; font-size: 18px;}
+.hexagon{margin: 20px;}
+.margin:hover{ padding-left: 10px; transition: 0.5s; cursor: pointer;}
+.text_enter{ text-align: center; margin: 100px; }
+.h_enter{ font-size: 40px;}
+.use{ font-size: 18px;}
+.more{ font-size: 19px; text-align: center; margin: 50px;}
+.logo_github{ width: 80px; height: auto;}
+.padding{ padding: 10px; }
+.enterprise{ margin-top: 10%;}
+.box_team{ margin-top: 10%; }
+.judul{ font-size: 50px; }
+.content{ font-size: 25px; }
+#btn_secondary{ border: solid 1px blue; height: 55px; color: blue;}
+.logo_central{ margin-top: 10%; }
+.tools{ font-size: 25px; margin: 20px; }
+.text_cod{ margin: 20px; }
+.box_hover:hover{ background-color: whitesmoke; border: 1px solid gray; transition: 1s; }
+.content_link{ margin: 30px; }
+.font_security{ font-family: roboto; }
+.security_content{ margin-top: 20%; }
+.boxes{ font-size: 50px  }
+.image_roboto{ margin-top: 10%; }
+.text-security{ font-size: 20px; }
+.judul_security{ font-size: 25px;}
+.security_content{ margin-top: 10%; }
+.content_hosted{ margin: 30px; border: solid 1px black;}
+.vilo{ margin-top: 50px; }
+.judul_hosted{ font-size: 23px;}
+.text_hosted{ margin: 45px; }
+.content_in{ margin-top: 10%; }
+.in{ font-size: 45px; }
+.text_in{ font-size: 20px; }
+.back_logo{ border-radius: 50%; padding: 20px; margin: 5px;}
+.nth_child:nth-child(even){ margin-bottom: -100px; }
+.link_market{ margin: 10%; } 
+.judul_dev{ font-size: 45px; }
+
+.container_flex{
+	max-width: 1300px;
+	margin: 0 auto;
+	position: relative;
+}
+.image_flex{ display: flex; overflow: auto; margin-top: 150px; padding: 50px;}
+#image_flex_size{ width: 300px; height: 300px; margin-left: 20px;}
+#image_flex_size1{ width: 300px; height: 300px; margin-left: 20px;}
+#image_flex_size3{ width: 300px; height: 300px; margin-left: 20px;}
+.bio{ display: inline; text-align: center; background-color: ghostwhite; padding: 20px; margin-top: -3px; box-shadow: 4px 3px 10px gray;}
+.bio p{ width: 200px; margin-top: 10px;}
+.bio p:hover{ text-decoration: underline; color: blue; transition: 0.5s; cursor: pointer; }
+#name_{ font-size: 30px; margin-top: 70px; }
+#name_:hover{ font-size: 32px; text-decoration: underline; color: blue; }
+#image_flex_size1, #image_flex_size3:nth-child(even){ margin-top: -20px; }
+#image_flex_size3:nth-child(odd){ margin-top: -20px; }
+
+.orange{ list-style-type: none;}
+.content_orange{ margin: 50px;}
+.mil{ font-size: 20px; }
+.get_started{ font-size: 30px; margin: 50px; }
+#height_sign{ height: 50px; }
+.purple{ color: #6633FF }
+.term_service{ margin: 20px; }
+.github_set{ font-size: 50px; margin: 20px; }
+.content_list{ margin: 10%; list-style-type: none;}
+.content_github{ margin: 10%; }
+
+.bg_whiteness{ background-color: whitesmoke; }
+.copyright{ font-size: 11px; margin: 15px;}
+.img_copy{ filter: grayscale(); margin: 5px;}
+.tern{ margin: 10px; }
+
+#_or{ font-size: 30px; }
+.background_L{ margin-right: 50%; }
+.image_miliard_1{ background-color: tomato;  padding: 50px;  text-align: center; border-radius: 100%; font-size: 10px; color: white;}
+
+.background_M{ margin-left: 40%; margin-right: 20%;}
+.image_miliard_2{ background-color: blue;  padding: 30px;  text-align: center; border-radius: 100%; font-size: 10px; color: white;}
+
+
+.background_S{ margin-left: 10%; margin-right: 55%;}
+.image_miliard_3{ background-color: purple;  padding: 20px;  text-align: center; border-radius: 100%; font-size: 10px; color: white;}
+
+.box_mil{ margin-bottom: 10%; }

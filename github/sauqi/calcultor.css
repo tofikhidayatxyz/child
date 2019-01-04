@@ -1,0 +1,5 @@
+.box{ border: 1px solid black ; }
+*{ background-color: black; }
+.container{ max-width: 1080px;}
+.sm-box{ width: 50%; float: left;}
+.sm-box2{ width: 50%; float: left;}

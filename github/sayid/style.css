@@ -1,0 +1,432 @@
+*{ 
+ 	margin: 0; 
+}
+#logo{ 
+	width: 50px; 
+	height: auto;
+}
+.header{
+	background-color: #24292e;
+}
+#h1{ 
+	margin-top: 20%; 
+	font-size: 65px;
+
+}
+#nav-2{
+	background-color: #24292e;
+}
+.text_introduction{ 
+	font-size: 20px; 
+	margin: 10px;
+}
+.background-nav-1{ 
+	background-image: url("Github/simple-codelines.svg");
+	background-size: cover;  
+	background-color: #2b3137; 
+	height: 700px;
+}
+#email{
+	height: 45px;
+}
+#username{ 
+	height: 45px; 
+}
+.form-sign{
+	padding: 30px;
+	margin-top: 40px; 
+}
+#text{
+	color: #a3a3a3;
+}
+#text-form{
+	color: #a3a3a3;
+}
+.form_login p{
+	text-align: center; 
+	margin-top: 10px;
+}
+#img-icon{
+	width: 80px; 
+	height: auto;
+}
+#click{
+	height: 60px;
+}
+.backnav-2{
+	background-color: black;
+}
+#btn-contact{ 
+	height: 55px;
+	margin-bottom: 150px;
+}
+.image-odd-even{ 
+	margin: 40px; 
+	filter: grayscale();
+}
+#text-content{
+
+	text-align: center;
+	padding-top: 10px;
+	color: #a3a3a3;
+}
+.image-odd-even-2{
+	margin-left: 30px;
+ 	margin-right: 30px; 
+ 	filter: grayscale(); 
+}
+.background_login{ 
+	background-color: white; 
+	margin: 30px; 
+	border-radius: 5px;
+}
+#nav{ 
+	margin: 10px;
+	color: white; 
+	font-size: 18px;
+}
+#or{ 
+	color: lightslategrey; 
+	font-size: 18px;
+}
+#nav{
+	margin: 5px; 
+}
+#search{ 
+	margin-right: 10px; 
+	width: 350px;
+	background-color: #3c3f43;
+	border: 1px solid #3c3f43;
+}
+#table_search{ 
+	width: 28%; 
+	height: 35px; 
+	border: solid 1px #333; 
+	padding: 10px; 
+	border-radius: 5px; 
+	background-color: #333
+}
+.universe-icon-top{
+	margin-top: 30px; 
+}
+.icon-left{ 
+	margin: 30px; 
+	color: white; 
+	font-size: 18px;
+}
+.icon-right{ 
+	color: white; 
+	margin: 30px; 
+	font-size: 18px;
+}
+.hexagon{
+	margin: 20px;
+}
+.margin:hover{ 
+	padding-left: 10px; 
+	transition: 0.5s; 
+	cursor: pointer;
+}
+#text-use{
+	text-align: center;
+    color: #6c6c6c;
+    max-width: 750px;
+    margin-left: 190px;
+}
+.text_enter{ 
+	text-align: center; 
+	margin: 100px; 
+}
+.h_enter{ 
+	font-size: 40px;
+}
+.use{ 
+	font-size: 18px;
+}
+.more{ 
+	font-size: 19px; 
+	text-align: center; 
+	margin: 50px;
+}
+.logo_github{ 
+	width: 80px; 
+	height: auto;
+}
+.padding{ 
+	padding: 10px; 
+}
+.enterprise{ 
+	margin-top: 10%;
+}
+.box_team{ 
+	margin-top: 10%; 
+}
+.judul{ 
+	font-size: 50px; 
+}
+.content-text{ 
+	font-size: 25px; 
+	color: #6c6c6c;
+	max-width: 750px;
+	margin-left: 80px;
+}
+#btn_secondary{ 
+	border: solid 1px blue; 
+	height: 55px; 
+	color: blue;
+	background-color: white;
+}
+.logo_central{
+ 	margin-top: 10%; 
+}
+.tools{ 
+	font-size: 25px; 
+	margin: 20px; 
+}
+.text_cod{ 
+	margin: 20px; 
+}
+.box-hover:hover{ 
+	background-color: ghostwhite; 
+	border: 1px solid gray; 
+	transition: 1s; 
+	cursor: pointer;
+}
+.content_link{ 
+	margin: 30px; 
+}
+.font_security{ 
+	font-family: roboto; 
+}
+.security_content{ 
+	margin-top: 20%; 
+}
+.boxes{ 
+	font-size: 50px  
+}
+.image-roboto{ 
+	margin-top: 11%; 
+}
+.btn-clear{
+	width: 350px;
+}
+.text-security{ 
+	font-size: 20px; 
+	text-align: center;
+	max-width: 750px;
+	margin-left: 90px;
+}
+.judul_security{ 
+	font-size: 25px;
+}
+.security_content{ 
+	margin-top: 10%; 
+}
+#content_hosted{ 
+	margin: 30px; 
+	border: solid 1px black;
+	width: 700px;
+	margin-left: 190px;
+}
+.vilo{
+ 	margin-top: 50px; 
+ }
+.judul_hosted{ 
+	font-size: 23px;
+	margin-left: 50px;
+}
+#compare{
+	margin-left: 50px;
+}
+#text-hosted{
+	max-width: 500px;
+	margin-left: 50px;
+}
+#hosted{ 
+	margin: 20px; 
+}
+.content_in{ 
+	margin-top: 10%; 
+}
+.in{ 
+	font-size: 45px; 
+}
+.text_in{ 
+	font-size: 20px; 
+}
+.back_logo{ 
+	border-radius: 50%; 
+	padding: 20px; 
+	margin: 5px;
+	margin-left: 30px;
+}
+#text-sometimes{
+	max-width: 300px;
+	margin-left: 170px;
+}
+.nth_child:nth-child(even){
+	margin-bottom: -100px; 
+}
+.link_market{ 
+	margin: 10%; 
+} 
+.judul_dev{ 
+	font-size: 45px; 
+}
+.container_flex{
+	max-width: 1300px;
+	margin: 0 auto;
+	position: relative;
+}
+.image_flex{ 
+	display: flex; 
+	overflow: auto; 
+	margin-top: 150px; 
+	padding: 50px;
+}
+#image_flex_size{ 
+	width: 150px; 
+	height: 150px; 
+	margin-left: 20px;
+}
+#image_flex_size1{ 
+	width: 150px; 
+	height: 150px; 
+	margin-left: 20px;
+}
+#image_flex_size3{ 
+	width: 150px; 
+	height: 150px; 
+	margin-left: 20px;
+}
+.bio{ 
+	display: inline; 
+	text-align: center; 
+	background-color: ghostwhite; 
+	width: 170px; 
+	height: 150px; 
+	margin-top: -3px; 
+	box-shadow: 4px 3px 10px gray;
+}
+.bio p{
+	width: 200px; 
+	margin-top: 10px;
+}
+.bio p:hover{ 
+	text-decoration: underline; 
+	color: blue; transition: 0.5s; 
+	cursor: pointer; 
+}
+#name_{ 
+	font-size: 20px; 
+	margin-top: 25px; 
+}
+#work{
+	max-width: 100px;
+	margin-left: 40px;
+}
+#name_:hover{ 
+	font-size: 21px; 
+	text-decoration: underline; 
+	color: blue; 
+}
+#image_flex_size1, #image_flex_size3:nth-child(even){
+	margin-top: -20px; 
+}
+#image_flex_size3:nth-child(odd){
+	margin-top: -20px; 
+}
+.orange{ 
+	list-style-type: none;
+}
+.content_orange{
+ 	margin: 50px;
+}
+.mil{ 
+	font-size: 20px; 
+}
+.round-1{ 
+	background-color: tomato;  
+	width: 250px;
+	height: 250px;
+	text-align: center; 
+	border-radius: 100%; 
+	font-size: 10px; 
+	color: white;
+}
+.round-2{ 
+	background-color: blue;  
+	margin-left: 150px;
+	width: 200px;
+	height: 200px;  
+	text-align: center; 
+	border-radius: 100%; 
+	font-size: 10px; 
+	color: white;
+}
+.round-3{ 
+	background-color: purple;  
+	padding: 20px;
+	width: 170px;
+	height: 170px;  
+	text-align: center; 
+	border-radius: 100%; 
+	font-size: 10px; 
+	color: white;
+	margin-bottom: 20%;
+	margin-top: -40px;
+}
+#text-2{ 
+	font-size: 40px;
+	padding-top: 50px; 
+}
+#text-3{ 
+	font-size: 30px;
+	padding-top: 25px; 
+}
+.get_started{ 
+	font-size: 30px; 
+	margin: 50px; 
+}
+#button-last{ 
+	height: 50px; 
+}
+#last-button{
+	height: 50px;
+}
+.purple{ 
+	color: #6633FF 
+}
+.term_service{ 
+	margin: 20px; 
+}
+.txt-git{ 
+	font-size: 50px; 
+	margin: 20px; 
+}
+.content_list{ 
+	margin: 10%; 
+	list-style-type: none;
+}
+.text-last-footer{ 
+	margin: 10%; 
+}
+.bg_whiteness{ 
+	background-color: whitesmoke; 
+}
+.text-footer{ 
+	font-size: 11px; 
+	margin: 15px;
+}
+.img-footer{ 
+	filter: grayscale(); 
+	margin: 5px;
+	cursor: pointer;
+}
+.tern{ 
+	margin: 10px; 
+}
+#text-1{ 
+	font-size: 50px;
+	padding-top: 60px; 
+}
